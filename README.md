@@ -1,1 +1,1 @@
-# EA apparel
+# EA Apparel
