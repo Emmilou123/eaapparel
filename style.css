@@ -1,0 +1,152 @@
+* {
+    background-color: #ae7d5c;
+}
+/* HEADING */
+.welcome-wrapper h1 {
+    font-size: 50px;
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+/* Next to heading paragraph */
+.welcome-wrapper p {
+    font-size: 22px;
+    font-style: italic;
+    color: #dbc8a8;
+    text-align: center;
+}
+/* Container for image */
+.image-container {
+    display: flex;
+}
+/* set width and size for image */
+.image-column img {
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 20px;
+    margin-top: 15%;
+}
+/* set hover images */
+.img1:hover {
+    content: url(./img/1.png);
+    width: 50%;
+}
+.img2:hover {
+    content: url(./img/2.png);
+    width: 50%;
+}
+.img3:hover {
+    content: url(./img/3.png);
+    width: 50%;
+}
+.img4:hover {
+    content: url(./img/4.png);
+    width: 50%;
+}
+.aboutus-container {
+    margin: 150px auto;
+    width: 50%;
+    display: flex;
+}
+/* about us style */
+.aboutus-container img {
+    width: 50%;
+    border-radius: 20px;
+}
+.aboutus-description {
+    display: inline-block;
+    vertical-align: top;
+    padding: 5%;
+    margin-top: 10%;
+}
+.aboutus-description h2 {
+    font-size: 50px;
+    color: #dbc8a8;
+}
+.aboutus-description p {
+    font-size: 18px;
+    color: black;
+}
+.collection-container h2{
+    text-align: center;
+    font-size: 45px;
+    color: #dbc8a8;
+}
+.link-container {
+    display: inline-block;
+    margin-left: 30%;
+}
+.link-container a{
+   color: #dbc8a8;
+   font-size: 25px;
+   font-weight: 600;
+}
+.header-hoodie {
+    font-size: 50px;
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+.hoodie-container {
+    text-align: center;
+}
+.hoodie-container img {
+    align-items: center;
+    border-radius: 20px;
+    max-width: 320px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.hoodie-description {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5%;
+}
+.hoodie-description h2 {
+    color: #dbc8a8;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+  
+}
+.hoodie-description p {
+    color: white;
+    font-size: 20px;
+}
+.header-jeans {
+    font-size: 50px;
+    font-family: "Yellowtail", cursive;
+    font-style: normal;
+    font-weight: 400;
+    color:white;
+    text-align: center;
+}
+.jeans-container {
+    text-align: center;
+}
+.jeans-container img {
+    align-items: center;
+    border-radius: 20px;
+    max-width: 320px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.jeans-description {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 5%;
+}
+.jeans-description h2 {
+    color: skyblue;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.jeans-description p {
+    color: white;
+    font-size: 20px;
+}
