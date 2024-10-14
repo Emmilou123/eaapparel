@@ -1,1 +1,1 @@
-# eaapparel
+# EA apparel
